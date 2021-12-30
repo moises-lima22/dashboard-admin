@@ -33,18 +33,22 @@
 
 .sidebar__menu > h2 {
   color: #3ea175;
-  font-size: 16px;
+  font-size: 14px;
   margin-top: 15px;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
   padding: 0 10px;
-  font-weight: 700;
+  font-weight: 700;  
 }
 
 .sidebar__link {
   color: #f3f4f6;
-  padding: 10xp;
+  padding: 5xp;
   border-radius: 3px;
   margin-bottom: 5px;
+  display: grid;
+  grid-template-columns: 0.4fr 2fr;
+  align-items: center;
+  justify-content: center;
 }
 
 .active_menu_link {
@@ -60,6 +64,7 @@
   text-decoration: none;
   color: #a5aaad;
   font-weight: 700;
+  font-size: 14px;
 }
 
 .sidebar__link a:focus {
@@ -69,7 +74,7 @@
 
 .sidebar__link > i {
   margin-right: 10px;
-  font-size: 18px;
+  font-size: 12px;
 }
 
 .sidebar__logout {
@@ -83,6 +88,11 @@
   color: #e65061;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.sidebar__logout > i{
+  font-size: 16px;
+  margin-right: 10px;
 }
 
 .sidebar-responsive {

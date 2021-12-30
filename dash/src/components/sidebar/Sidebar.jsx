@@ -1,4 +1,5 @@
 import "./Sidebar.css";
+
 import logo from "../../assents/logo-cargo.png";
 
 const Sidebar = ({ sidebarOpen, closeSidebar }) => {
@@ -7,7 +8,7 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
       <div className="sidebar__title">
         <div className="sidebar__img">
           <img src={logo} alt="logo" />
-          <h1>Cargo</h1>
+          <h1></h1>
         </div>
 
         <i
@@ -19,7 +20,7 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
       </div>
       <div className="sidebar__menu">
         <div className="sidebar__link active_menu_link">
-          <i className="fa-solid fa-square-minus"></i>
+          <i class="fas fa-minus-square"></i>
           <a href="#">Home</a>
         </div>
         <h2>ADMIN</h2>
@@ -40,20 +41,20 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
           <a href="#">Categorias</a>
         </div>
         <div className="sidebar__link">
-          <i className="fa fa-cutlery"></i>
+          <i class="fas fa-utensils"></i>
           <a href="#">Pedidos</a>
         </div>
-        <h2>Pessoas</h2>
+        <h2>PESSOAS</h2>
         <div className="sidebar__link">
-          <i className="fa fa-male"></i>
+          <i className="fas fa-users-cog"></i>
           <a href="#">Administradores</a>
         </div>
         <div className="sidebar__link">
-          <i class="fas fa-users"></i>
+          <i className="fas fa-users"></i>
           <a href="#">Usuários</a>
         </div>
         <div className="sidebar__link">
-          <i className="fa fa-money"></i>
+          <i className="fas fa-money-check-alt"></i>
           <a href="#">Pagamentos e custos</a>
         </div>
         <div className="sidebar__link">
@@ -61,11 +62,11 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
           <a href="#">A plataforma</a>
         </div>
         <div className="sidebar__link">
-          <i className="fa fa-file-text"></i>
+          <i className="fas fa-file-alt"></i>
           <a href="#">Política de privacidade</a>
         </div>
-        <div className=".sidebar__logout">
-          <i className="fa fa-power-off"></i>
+        <div className="sidebar__logout">
+          <i className="fas fa-sign-out-alt"></i>
           <a href="#">Logout</a>
         </div>
       </div>
